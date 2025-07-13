@@ -1,0 +1,10 @@
+tuple1 = (0, 1, 2, 3, 2, 3, 1, 3, 2, 3)
+res = tuple1.count(3)
+print("count the no of 3:", res)
+res1 = tuple1.index(3)
+print("index is:", res1)
+res2 = tuple1.index(3, 4, 8)#(element, start, end)
+print("index is:", res2)
+res3 = len(tuple1)
+print(res3)
+ 

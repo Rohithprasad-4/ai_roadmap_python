@@ -1,0 +1,13 @@
+tup = (5 ,6,"hello",True)
+print(len(tup))
+print(tup.count(6))
+print(tup[0])
+if "hello" in tup:
+    print("hello is present in tup")
+##Operations in tuple##
+countries = ("USA","india","italy","russia","israel","palsetin")
+temp =list(countries)
+temp.pop(3)
+print(temp)
+temp.append("cuba")
+print(temp)
